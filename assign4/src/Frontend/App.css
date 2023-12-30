@@ -1,0 +1,178 @@
+.App {
+  background: linear-gradient(to right, rgb(253, 51, 166), #f53af5);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  box-sizing: border-box;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.cardRegister {
+  margin: 8px;
+  box-sizing: border-box;
+  width: 350px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background: linear-gradient(to right, rgb(255, 255, 255), #ff5eff);
+}
+.cardRegister:hover {
+  background: linear-gradient(to right, rgb(255, 220, 240), #ff76ff);
+  width: 400px;
+}
+.card:hover {
+  background: linear-gradient(to right, rgb(249, 109, 188), #ff85ff);
+}
+
+@media (min-width: 768px) {
+  .cardProfile {
+    width: 800px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(255, 255, 255), #ff5eff);
+    border: 2px solid white;
+  }
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: #e2e8f0 solid 2px;
+  }
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .cardProfile {
+    width: 450px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(255, 255, 255), #ff5eff);
+    border: 2px solid white;
+  }
+}
+
+.profile-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.update-container {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, rgb(253, 51, 166), #d407d4);
+  width: 100%;
+  height: 45pc;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.profile-container {
+  background: linear-gradient(to right, rgb(253, 51, 166), #d407d4);
+  width: 100%;
+  height: 45pc;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.justify-end {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn {
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  background: linear-gradient(to right, #f8a3da, #f6f6f7);
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #ff5fc7, #f6f6f7);
+}
+
+.flex-1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.drawer-content {
+  display: none;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.drawer-content ul {
+  z-index: 999;
+  list-style-type: none;
+  padding: 0;
+
+  width: 200px;
+}
+.drawer-content ul li:hover {
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff5fc7, #f6f6f7);
+}
+.drawer-item {
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.drawer-item:hover {
+  background-color: #e2e8f0;
+}
+
+.drawer-link {
+  text-decoration: none;
+  color: #2d3748;
+  font-weight: bold;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .links {
+    display: inline;
+  }
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .links {
+    display: none;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
