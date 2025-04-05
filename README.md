@@ -9,43 +9,15 @@ npm run start command to run the frontend which would ppen automatically on your
 
 ----------------------------FEATURES---------------------------
 Sign up or Login
-![Alt text](image.png)
-
----
-
 Admin side options
-![Alt text](image-1.png)
-
 -Users list
-![Alt text](image-2.png)
-
 -Blogs list
-![Alt text](image-3.png)
-
----
-
 User side options
-![Alt text](image-4.png)
-
 Upload Blog
-![Alt text](image-5.png)
-
 Menu for sort and filters
-![Alt text](image-6.png)
-
 View and open a blog
-![Alt text](image-7.png)
-
 Update Profile
-![Alt text](image-8.png)
-
 See notifications for comments and followings
-![Alt text](image-9.png)
-
 Update a blog
-![Alt text](image-10.png)
-
 Follow or delete a blog
-![Alt text](image-11.png)
-
 and more.....
